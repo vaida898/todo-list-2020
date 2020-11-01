@@ -10,8 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-
-import os
 import dj_database_url
 from pathlib import Path
 
@@ -28,7 +26,7 @@ SECRET_KEY = '@rkqn#^w*x3*j@m+xv1kqxs#@4g9h&gxuy^s&*l&0-nrs4!#qu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://git.heroku.com/vaida-todo-list-2020.git']
 
 
 # Application definition
